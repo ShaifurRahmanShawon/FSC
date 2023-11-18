@@ -100,7 +100,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
+.text-secondary0 {
+  color: #ffffff !important;
+}
+.text-secondary1 {
+  color: #c8cd1d !important;
+}
+.text-secondary2 {
+  color: #e0981d !important;
+}
 
+a.text-secondary:hover, a.text-secondary:focus {
+  color: #13191d !important;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 28px;
@@ -1085,6 +1100,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background-size: cover;
 }
 
 #contact .contact-about h3 {
@@ -1103,7 +1120,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
-  color: #888;
+  color: #faf8f8;
 }
 
 #contact .social-links {
@@ -1114,7 +1131,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #1dc8cd;
+  color: #cda41d;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1123,21 +1140,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid #FFFF00;
 }
 
 #contact .social-links a:hover {
-  background: #1dc8cd;
+  background: #FFFF00;
   color: #fff;
 }
 
 #contact .info {
-  color: #333333;
+  color: #fdfafa;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #1dc8cd;
+  color: #a7cd1d;
   float: left;
   line-height: 1;
 }
