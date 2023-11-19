@@ -99,15 +99,17 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  height: 50px;
+  width: 80px;
 }
 .text-secondary0 {
   color: #ffffff !important;
 }
 .text-secondary1 {
-  color: #c8cd1d !important;
+  color: #f37523 !important;
 }
 .text-secondary2 {
-  color: #e0981d !important;
+  color: #f3eb18 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -1131,7 +1133,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #cda41d;
+  color: #FFFF00;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1145,7 +1147,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .social-links a:hover {
   background: #FFFF00;
-  color: #fff;
+  color: #f20a0a;
 }
 
 #contact .info {
@@ -1154,7 +1156,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #a7cd1d;
+  color: #FFFF00;
   float: left;
   line-height: 1;
 }
