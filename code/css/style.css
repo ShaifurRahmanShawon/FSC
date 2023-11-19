@@ -127,7 +127,7 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #c8cd1d, #e0981d);
+  background: linear-gradient(45deg, #c8cd1d, #cd1d4b);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -140,7 +140,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   width: 100%;
   height: 100vh;
   /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;*/
-  background: linear-gradient(45deg, #c7cd1da7, #e0981dac), url("../img/intro-bg.jpg") center top no-repeat;
+  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), url("../img/intro-bg1.jpg") center top no-repeat;
   background-size: cover; 
   position: relative;
 }
@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #cd1d4b 0%, #fa8555 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -629,7 +629,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #cd1d4b 0%, #fa8555 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -696,7 +696,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #cd1d4b 0%, #fa8555 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -776,12 +776,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* More Features Section
 --------------------------------*/
-#more-features {
+#services {
   padding: 60px 0 60px 0;
   overflow: hidden;
 }
 
-#more-features .box {
+#services .box {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
@@ -789,37 +789,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.4s;
 }
 
-#more-features .icon {
+#services .icon {
   float: left;
 }
 
-#more-features .icon i {
+#services .icon i {
   color: #666666;
   font-size: 80px;
   transition: 0.5s;
   line-height: 0;
 }
 
-#more-features .icon i:before {
+#services .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #cd1d4b 0%, #fa8555 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#more-features h4 {
+#services h4 {
   margin-left: 100px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#more-features h4 a {
+#services h4 a {
   color: #111;
 }
 
-#more-features p {
+#services p {
   font-size: 14px;
   margin-left: 100px;
   margin-bottom: 0;
@@ -827,15 +827,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
-  #more-features .box {
+  #services .box {
     margin-bottom: 20px;
   }
-  #more-features .icon {
+  #services .icon {
     float: none;
     text-align: center;
     padding-bottom: 15px;
   }
-  #more-features h4, #more-features p {
+  #services h4, #services p {
     margin-left: 0;
     text-align: center;
   }
