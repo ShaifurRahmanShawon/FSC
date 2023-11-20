@@ -1170,3 +1170,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
+
+/** Form new **/
+.main {
+  width: 600px;
+  margin: 100px auto;
+}
+.single-form {
+  margin-bottom: 25px;
+}
+.single-form label {
+  display: block;
+  font-size: 22px;
+}
+.single-form input, .single-form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 7px;
+}
+.single-form input[type="submit"] {
+  background-color: #ff7720;
+  border: 0;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+.single-form span {
+color: red;
+font-weight: bold;
+display: block;
+margin-top: 5px;
+}
