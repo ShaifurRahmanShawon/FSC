@@ -140,7 +140,7 @@ a.text-secondary:hover, a.text-secondary:focus {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 600px;
+  height: 100vh;
   /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
   background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;*/
   background-color: #3a5254;
@@ -780,8 +780,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* More Features Section
 --------------------------------*/
 #services {
-  padding: 40px 0 60px 0;
-  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;*/
+  background-color: #3a5254;
+  background-size: cover; 
+  position: relative;
 }
 
 #services .box {
@@ -814,8 +819,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services h4 {
   margin-left: 100px;
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 #services h4 a {
