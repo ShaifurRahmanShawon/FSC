@@ -781,13 +781,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #services {
  
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
   overflow: hidden;
 }
 
 #services .box {
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
   background: #fff;
   transition: 0.4s;
@@ -926,7 +926,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Our Team Section
 --------------------------------*/
 #team {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -1075,6 +1075,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
+  width: 100%;
+  height: 100vh;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
