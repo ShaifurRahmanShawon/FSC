@@ -9,7 +9,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: rgb(102, 102, 102);
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -141,8 +141,8 @@ a.text-secondary:hover, a.text-secondary:focus {
 #intro {
   width: 100%;
   height: 100vh;
-  /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
-  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;*/
+  /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;*/
+  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;
   background-color: #3a5254;
   background-size: cover; 
   position: relative;
@@ -1079,7 +1079,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), fixed center center;
     background-size: cover;
 }
 
