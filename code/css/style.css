@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: #f6fafa;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #1dc9ce;
+  color: #0ee6ee;
   outline: none;
   text-decoration: none;
 }
@@ -140,9 +140,10 @@ a.text-secondary:hover, a.text-secondary:focus {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 100vh;
-  /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;*/
-  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;
+  height: 600px;
+  /*background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  background: linear-gradient(45deg, #c7cd1da7, #cd1d4caa), center top no-repeat;*/
+  background-color: #3a5254;
   background-size: cover; 
   position: relative;
 }
@@ -779,14 +780,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* More Features Section
 --------------------------------*/
 #services {
-  padding: 60px 0 60px 0;
+  padding: 40px 0 60px 0;
   overflow: hidden;
 }
 
 #services .box {
-  padding: 40px;
-  margin-bottom: 30px;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
   background: #fff;
   transition: 0.4s;
 }
@@ -973,7 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .box {
-  padding: 6%;
+  padding: 3%;
   margin-bottom: 10px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
