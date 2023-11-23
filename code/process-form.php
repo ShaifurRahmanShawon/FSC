@@ -1,27 +1,27 @@
 <?php
-    if (isset($_POST["submit"])) {
-        $name = $_POST["name"];
-        $email = $_POST["email"];
-        $subject = $_POST["subject"];
-        $message = $_POST["message"];
-    
-        // Set the recipient email address
-        $to = "shaifur999@gmail.com";
-    
-        // Build the email message
-        $email_message = "Name: $name\n";
-        $email_message .= "Email: $email\n";
-        $email_message .= "Subject: $subject\n";
-        $email_message .= "Message:\n$message";
-    
-        // Set additional headers
-        $headers = "From: $email";
-    
-        // Send the email
-        mail($to, $subject, $email_message, $headers);
-    
-        // Redirect to a thank you page or display a success message
-        header("Location: index.html");
-        exit();
-    }
-    ?>
+$servername = "your_db_server";
+$username = "your_db_username";
+$password = "your_db_password";
+$dbname = "form_data";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+
+$sql = "INSERT INTO form_data (name, email, subject, message) VALUES ('$name', '$email', '$subject', '$message')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
